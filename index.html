@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upasana Patra</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Autour+One&family=DM+Serif+Display:ital@0;1&family=Dancing+Script&family=IBM+Plex+Mono:ital,wght@1,100;1,200&family=Noto+Sans+Osmanya&family=Poppins:wght@200;400&family=Roboto:ital,wght@1,100&family=Young+Serif&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            background-color: rgb(96, 197, 180);
+            color: rgb(242, 243, 245);
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 84px;
+            background-color: rgb(44, 133, 118);
+            ;
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: rgb(242, 243, 245);
+        }
+        
+        nav ul li a:hover {
+            color: rgb(181, 243, 225);
+            font-size: 1.02rem;
+        }
+        
+        main hr {
+            border: 0;
+            background: rgb(102, 105, 105);
+            height: 1.5px;
+            margin: 50px 80px;
+        }
+        
+        .left {
+            font-size: 1.7rem;
+        }
+        
+        .Firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+        
+        .Firstsection>div {
+            width: 30%;
+        }
+        
+        .leftsection {
+            /* background-color: ; */
+            font-size: 2.5rem;
+            /* margin: 25px 0; */
+        }
+        
+        .leftsection .btn {
+            padding: 12px;
+            background-color: rgb(18, 63, 48);
+            color: rgb(254, 255, 255);
+            border: 3px solid rgb(151, 155, 155);
+            border-radius: 6px;
+            font-size: 17px;
+            cursor: pointer;
+        }
+        
+        .leftsection .button {
+            padding: 20px;
+        }
+        
+        .rightsection img {
+            width: 80%;
+            border-radius: 100px;
+            border-color: rgb(21, 74, 56);
+            border-width: 3px;
+            border-style: groove;
+            height: 340px;
+        }
+        
+        .purple {
+            color: rgb(18, 63, 48);
+        }
+        
+        .text-grey {
+            color: gray;
+        }
+        
+        #element {
+            color: rgb(18, 63, 48);
+        }
+        
+        .Secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        
+        .Secondsection h1 {
+            font-size: 1.7rem;
+        }
+        
+        .Secondsection .box {
+            background: gray;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        
+        .Secondsection .vertical {
+            height: 90px;
+            width: 2px;
+            background-color: gray;
+            margin: 0 135px;
+        }
+        
+        .image-top {
+            width: 52px;
+            height: 30px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        
+        .verticaltext {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 22px;
+        }
+        
+        .verticaldesc {
+            position: relative;
+            top: 86px;
+            color: rgb(18, 63, 48);
+            width: 150px;
+            font-size: 11px;
+        }
+        
+        footer {
+            background-color: rgb(32, 100, 89);
+            height: 160px;
+        }
+        
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Upasana's Portfolio</div>
+            <div class="right">
+                <ul>
+
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="Firstsection">
+            <div class="leftsection">
+                Hi! My name is <span class="purple">Upasana Patra</span>
+                <div>and I am a</div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn">Resume</button>
+                    <button class="btn">GitHub</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="developer png.jpg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="Secondsection">
+            <span class="text-grey">What i have done so far</span>
+            <h1>Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="cd.png" alt="" srcset="">
+                    <div class="verticaltext">
+                        Frontend developer
+                    </div>
+                    <div class="verticaldesc">
+                        I am proficient in HTML, CSS, and JavaScript, which are the fundamental building blocks of web developments. I have a good knowledge in CSS frameworks like Bootstrap.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="code.jpg" alt="" srcset="">
+                    <div class="verticaltext">
+                        Web developer
+                    </div>
+                    <div class="verticaldesc">
+                        I am proficient in HTML, CSS, and JavaScript, which are the fundamental building blocks of web developments. I have a good knowledge in CSS frameworks like Bootstrap.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="gd.jpeg" alt="" srcset="">
+                    <div class="verticaltext">
+                        Graphic Designer
+                    </div>
+                    <div class="verticaldesc">
+                        I have a good designing skill which help to communicate ideas, messages, or information in a visually appealing.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="uiux.png" alt="" srcset="">
+                    <div class="verticaltext">
+                        UI/UX developer
+                    </div>
+                    <div class="verticaldesc">
+                        I have a good knowledge in frame working,for the user UI/UX i use figma,canva,adobe XD to design websites according to users intrest.
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="first">
+                <h3>Developer's Portfolio</h3>
+            </div>
+            <div class="second">
+                <ul>
+                    <li>LINKED IN</li>
+
+                </ul>
+            </div>
+            <div class="third">
+                <ul>
+
+                    <li>GIT HUB</li>
+
+                </ul>
+            </div>
+            <div class="fourth">
+                <ul>
+
+                    <li>INSTAGRAM</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Frontend Developer', 'Graphic Designer', 'UI/UX Designer', 'Web Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
